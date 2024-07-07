@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: sans;
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0px;
+}
+
+.card {
+  background-color: #eee;
+  border-radius: 20px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+header{
+  background-color: lightgreen;
+  padding: 1rem;
+  border-radius: 20px 20px 0 0;
+}
+
+.zone-text{
+  /*border: 1px solid black;*/
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+button{
+  background-color: lightgreen;
+  padding: .5rem;
+  border-radius: 20px;
+  width: 100px;
+  margin: 1rem auto;
+  border: 2px solid lightgreen;
+  transition: .3s;
+  cursor: pointer;
+}
+
+button:active{
+    background-color: #fff;
+}
