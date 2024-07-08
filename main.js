@@ -80,6 +80,7 @@ function getNb(max){
 function tirer() {
   let tab = voies.length + 1;
   let result = voies[getNb(tab)].split("-");
-  let text = document.getElementById("result").innerText = "Numéro de mur : " + result[0]  + "\nCouleur de la voie : " + result[1];
+  let textMur = document.getElementById("result_mur").innerText = result[0];
+  let textVoie = document.getElementById("result_voie").innerText = result[1];
 }
 

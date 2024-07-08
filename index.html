@@ -9,18 +9,38 @@
 </head>
 <body>
   <main>
-    <div class="card">
-      <header>
-        <h1>Trouve ta voie</h1>
-      </header>
+    <header>
+      <h1>Trouve ta Voie</h1>
+    </header>
+    <section>
+      <div class="zone-filtre">
+       
+      </div>
       <div class="zone-text">
-        <p id="result">
-          test
+        <p class="info">
+          <b>
+            Information : <br />
+          </b>
+          Tire au sort ta voie à l'aide du bouton ci-dessous.
+        </p>
+        <p>
+          Numéro de mur
+        </p>
+        <p id="result_mur" class="resultat">
+
+        </p>
+        <p>
+          Couleur de la voie
+        </p>
+        <p id="result_voie" class="resultat">
+         
         </p>
       </div>
-      <button class="btn" onclick="tirer()">Tirage</button>
-    </div>
-    
+      <button onclick="tirer()"></button>
+    </section>
+    <footer>
+      <p>Tous droits réservés. Anthony & Bérénice</p>
+    </footer>
   </main>
   <script src="main.js"></script>
 </body>
