@@ -13,9 +13,6 @@
       <h1>Trouve ta Voie</h1>
     </header>
     <section>
-      <div class="zone-filtre">
-       
-      </div>
       <div class="zone-text">
         <p class="info">
           <b>
@@ -23,18 +20,15 @@
           </b>
           Tire au sort ta voie à l'aide du bouton ci-dessous.
         </p>
-        <p>
-          Numéro de mur
-        </p>
-        <p id="result_mur" class="resultat">
+        <div class="zone-result">
+          <p class="intitule">
+            Numéro de mur : <span id="result_mur" class="resultat"></span>
+          </p>
+          <p class="intitule">
+            Couleur de la voie : <span id="result_voie" class="resultat"></span>
+          </p>
+        </div>
 
-        </p>
-        <p>
-          Couleur de la voie
-        </p>
-        <p id="result_voie" class="resultat">
-         
-        </p>
       </div>
       <button onclick="tirer()"></button>
     </section>
