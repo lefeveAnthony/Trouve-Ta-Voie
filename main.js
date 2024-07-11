@@ -87,11 +87,16 @@ function tirer() {
 function displayMenu() {
   console.log("Test menu OK");
   let menu = document.querySelector(".menu");
-  if(menu.style.width == "60%"){
+  let iconMenu = document.querySelector(".settings");
+  if(menu.style.width == "70%"){
     menu.style.width = "0px";
     menu.style.animation = "undisplay-menu 1s forwards";
+    iconMenu.style.background = "#99CC66";
+    iconMenu.src = "img/icon_settings.png";
   }else{
-    menu.style.width = "60%";
+    menu.style.width = "70%";
     menu.style.animation = "display-menu 1s forwards";
+    iconMenu.style.background = "#fff";
+    iconMenu.src = "img/icon_settings_hover.png";
   }
 }
