@@ -84,3 +84,14 @@ function tirer() {
   let textVoie = document.getElementById("result_voie").innerText = result[1];
 }
 
+function displayMenu() {
+  console.log("Test menu OK");
+  let menu = document.querySelector(".menu");
+  if(menu.style.width == "60%"){
+    menu.style.width = "0px";
+    menu.style.animation = "undisplay-menu 1s forwards";
+  }else{
+    menu.style.width = "60%";
+    menu.style.animation = "display-menu 1s forwards";
+  }
+}

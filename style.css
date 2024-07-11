@@ -19,7 +19,63 @@ header {
   background-color: #99cc66;
   padding: 1rem;
   color: #fff;
-  text-align: center;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header .logo {
+  display: none;
+}
+
+header h1 {
+  font-family: serif;
+  font-size: 1.5rem;
+}
+
+.settings {
+  border-radius: 10px;
+  border: 2px solid #fff;
+  padding: .2rem;
+  cursor: pointer;
+}
+
+
+.menu {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  width: 0px;
+  background: #99CC66;
+  border-top: 2px solid #fff;
+  border-radius: 20px 0 0 0;
+}
+
+@keyframes undisplay-menu {
+  from {
+    right: -70%;
+  }
+  to {
+    rigth: 0;
+  }
+}
+
+@keyframes display-menu {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 70%;
+  }
+}
+
+select {
+  background: none;
+  color: #fff;
+  position: relative;
+  right: 0;
 }
 
 section {
@@ -90,7 +146,7 @@ button:active{
 
 footer {
   padding: 1rem;
-  background-color: darkgreen;
+  background-color: #52861C;
   color: #ddd;
   text-align: center;
   font-size: .7rem;
