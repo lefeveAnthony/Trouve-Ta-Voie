@@ -85,18 +85,19 @@ function tirer() {
 }
 
 function displayMenu() {
-  console.log("Test menu OK");
   let menu = document.querySelector(".menu");
   let iconMenu = document.querySelector(".settings");
-  if(menu.style.width == "70%"){
-    menu.style.width = "0px";
+  if(menu.style.transform === "translateX(100%)"){
+    menu.style.transform = "translateX(0)";
     menu.style.animation = "undisplay-menu 1s forwards";
     iconMenu.style.background = "#99CC66";
     iconMenu.src = "img/icon_settings.png";
+    console.log("désaffiche");
   }else{
-    menu.style.width = "70%";
+    menu.style.transform = "translateX(100%)";
     menu.style.animation = "display-menu 1s forwards";
     iconMenu.style.background = "#fff";
     iconMenu.src = "img/icon_settings_hover.png";
+    console.log("affiche");
   }
 }
