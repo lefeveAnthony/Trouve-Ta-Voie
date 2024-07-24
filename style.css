@@ -8,7 +8,7 @@
 }
 
 main {
-  height: 100dvh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,38 +44,39 @@ header h1 {
 
 
 .menu {
-  position: absolute;
+  position: fixed;
+  display:flex;
   top: 70px;
   right: 0;
-  width: 0px;
+  width: 70%;
+  height: 100vh;
   background: #99CC66;
-  border-top: 2px solid #fff;
+  border-top: 2px solid #eee;
   border-radius: 20px 0 0 0;
+  transform: translateX(100%);
 }
 
 @keyframes undisplay-menu {
   from {
-    width: 70%;
+    transform: translateX(0);
   }
   to {
-    width: 0;
+    transform: translateX(100%);
   }
 }
 
 @keyframes display-menu {
   from {
-    width: 0px;
+    transform: translateX(100%);
   }
   to {
-    width: 70%;
+    transform: translateX(0);
   }
 }
 
-select {
-  background: none;
-  color: #fff;
-  position: relative;
-  right: 0;
+.diff-gauche, .diff-droite {
+  border: 1px solid;
+  width: 45%;
 }
 
 section {
@@ -145,7 +146,7 @@ button:active{
 }
 
 footer {
-  padding: 1rem;
+  padding-bottom: 2rem;
   background-color: #52861C;
   color: #ddd;
   text-align: center;
