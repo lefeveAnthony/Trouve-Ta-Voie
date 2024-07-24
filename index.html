@@ -15,34 +15,72 @@
       <img class="settings" src="img/icon_settings.png" alt="pictogramme de paramètres" width="40px" onclick="displayMenu()"/>
     </header>
     <section class="menu">
-      <select id="difficulty" name="difficulty">
-        <option value="">Choisir une difficulté
-        </option>
-        <option value="4a">4A
-        </option>
-        <option value="4b">4B
-        </option>
-        <option value="4c">4C
-        </option>
-        <option value="5a">5A
-        </option>
-        <option value="5b">5B
-        </option>
-        <option value="5c">5C
-        </option>
-        <option value="6a">6A
-        </option>
-        <option value="6b">6B
-        </option>
-        <option value="6c">6C
-        </option>
-        <option value="7a">7A
-        </option>
-        <option value="7b">7B
-        </option>
-        <option value="7c">7C
-        </option>
-      </select>
+        <ul class="diff-gauche">
+          <li>
+             <label for="diff-1">4A</label>
+             <input id="diff-1" type="checkbox" name="difficulty" value="4A" />
+          </li>
+
+          <li>
+             <label for="diff-2">4B</label>
+             <input id="diff-2" type="checkbox" name="difficulty" value="4B" />
+          </li>
+
+          <li>
+             <label for="diff-3">4C</label>
+             <input id="diff-3" type="checkbox" name="difficulty" value="4B" />
+          </li>
+
+          <li>
+             <label for="diff-4">5A</label>
+             <input id="diff-4" type="checkbox" name="difficulty" value="4B" />
+          </li>
+
+          <li>
+             <label for="diff-5">5B</label>
+             <input id="diff-5" type="checkbox" name="difficulty" value="4B" />
+          </li>
+
+          <li>
+             <label for="diff-6">5C</label>
+             <input id="diff-6" type="checkbox" name="difficulty" value="4B" />
+          </li>
+
+        </ul>
+        <ul class="diff-droite">
+          <li>
+             <label for="diff-7">6A</label>
+             <input id="diff-7" type="checkbox" name="difficulty" value="4B" />
+          </li>
+
+          <li>
+            <label for="diff-8">6B</label>
+            <input id="diff-8" type="checkbox" name="difficulty" value="4B" />
+          </li>
+
+          <li>
+             <label for="diff-9">6C</label>
+             <input id="diff-9" type="checkbox" name="difficulty" value="4B" />
+          </li>
+
+          <li>
+             <label for="diff-10">7A</label>
+             <input id="diff-10" type="checkbox" name="difficulty" value="4B" />
+          </li>
+
+          <li>
+             <label for="diff-11">7B</label>
+             <input id="diff-11" type="checkbox" name="difficulty" value="4B" />
+          </li>
+
+          <li>
+             <label for="diff-12">7C</label>
+             <input id="diff-12" type="checkbox" name="difficulty" value="4B" />
+          </li>
+                                                              </ul>
+
+
+
     </section>
     <section>
       <div class="zone-text">
@@ -65,6 +103,7 @@
       <button onclick="tirer()"></button>
     </section>
     <footer>
+      <img src="img/logoAB_blanc.png" alt="" width="50px"/>
       <p>Tous droits réservés. Anthony & Bérénice</p>
     </footer>
   </main>
