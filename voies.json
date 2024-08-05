@@ -77,7 +77,7 @@
     {
         "mur": 6,
         "couleur": "orange",
-        "niveau": 5C
+        "niveau": "5C"
     },
     {
         "mur": 6,
@@ -195,7 +195,7 @@
         "niveau": ""
     },
     {
-        "mur": 14,json
+        "mur": 14,
         "couleur": "jaune",
         "niveau": "5C"
     },
@@ -324,7 +324,7 @@
         "couleur": "violet",
         "niveau": "5C+"
     },
-    {json
+    {
         "mur": 21,
         "couleur": "gris",
         "niveau": "4B+"
