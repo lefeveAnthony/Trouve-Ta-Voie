@@ -1,0 +1,367 @@
+[
+    {
+        "mur": 1,
+        "couleur": "bleu",
+        "niveau": "5C"
+    },
+    {
+        "mur": 1,
+        "couleur": "vert",
+        "niveau": "4C"
+    },
+    {
+        "mur": 1,
+        "couleur": "jaune",
+        "niveau": "6A"
+    },
+    {
+        "mur": 2,
+        "couleur": "orange",
+        "niveau": "5A"
+    },
+    {
+        "mur": 2,
+        "couleur": "jaune",
+        "niveau": "4B"
+    },
+    {
+        "mur": 2,
+        "couleur": "rouge",
+        "niveau": ""
+    },
+    {
+        "mur": 3,
+        "couleur": "violet",
+        "niveau": "4C"
+    },
+    {
+        "mur": 3,
+        "couleur": "vert",
+        "niveau": "4C+"
+    },
+    {
+        "mur": 3,
+        "couleur": "bleu",
+        "niveau": "5A"
+    },
+    {
+        "mur": 4,
+        "couleur": "orange",
+        "niveau": "5B"
+    },
+    {
+        "mur": 4,
+        "couleur": "jaune",
+        "niveau": "5B"
+    },
+    {
+        "mur": 4,
+        "couleur": "blanc",
+        "niveau": "5C"
+    },
+    {
+        "mur": 5,
+        "couleur": "bleu",
+        "niveau": "6C"
+    },
+    {
+        "mur": 5,
+        "couleur": "rouge",
+        "niveau": "5C"
+    },
+    {
+        "mur": 5,
+        "couleur": "vert",
+        "niveau": "5B"
+    },
+    {
+        "mur": 6,
+        "couleur": "orange",
+        "niveau": 5C
+    },
+    {
+        "mur": 6,
+        "couleur": "noir marbré",
+        "niveau": "6B"
+    },
+    {
+        "mur": 6,
+        "couleur": "rouge",
+        "niveau": ""
+    },
+    {
+        "mur": 7,
+        "couleur": "jaune",
+        "niveau": "6A"
+    },
+    {
+        "mur": 7,
+        "couleur": "bleu",
+        "niveau": ""
+    },
+    {
+        "mur": 8,
+        "couleur": "marron",
+        "niveau": "5C+",
+    },
+    {
+        "mur": 8,
+        "couleur": "blanc",
+        "niveau": "5A"
+    },
+    {
+        "mur": 9,
+        "couleur": "vert",
+        "niveau": "5C"
+    },
+    {
+        "mur": 9,
+        "couleur": "orange",
+        "niveau": "5B"
+    },
+    {
+        "mur": 10,
+        "couleur": "rouge",
+        "niveau": "6A"
+    },
+    {
+        "mur": 10,
+        "couleur": "bleu",
+        "niveau": "6B+"
+    },
+    {
+        "mur": 10,
+        "couleur": "noir marbré",
+        "niveau": "5C+"
+    },
+    {
+        "mur": 11,
+        "couleur": "orange",
+        "niveau": "5B"
+    },
+    {
+        "mur": 11,
+        "couleur": "vert",
+        "niveau": "6C"
+    },
+    {
+        "mur": 12,
+        "couleur": "bleu",
+        "niveau": "5A"
+    },
+    {
+        "mur": 12,
+        "couleur": "violet",
+        "niveau": "5B+"
+    },
+    {
+        "mur": 12,
+        "couleur": "jaune",
+        "niveau": "4C"
+    },
+    {
+        "mur": 13,
+        "couleur": "orange",
+        "niveau": "4C"
+    },
+    {
+        "mur": 13,
+        "couleur": "Triange",
+        "niveau": "6B"
+    },
+    {
+        "mur": 13,
+        "couleur": "rose",
+        "niveau": "6C"
+    },
+    {
+        "mur": 13,
+        "couleur": "violet",
+        "niveau": "5A"
+    },
+    {
+        "mur": 14,
+        "couleur": "noir",
+        "niveau": "5B+"
+    },
+    {
+        "mur": 14,
+        "couleur": "bleu",
+        "niveau": "6A"
+    },
+    {
+        "mur": 14,
+        "couleur": "rouge",
+        "niveau": ""
+    },
+    {
+        "mur": 14,
+        "couleur": "jaune",
+        "niveau": "5C"
+    },
+    {
+        "mur": 15,
+        "couleur": "vert",
+        "niveau": "4C"
+    },
+    {
+        "mur": 15,
+        "couleur": "violet",
+        "niveau": "6B"
+    },
+    {
+        "mur": 15,
+        "couleur": "blanc",
+        "niveau": ""
+    },
+    {
+        "mur": 16,
+        "couleur": "vert",
+        "niveau": "5C"
+    },
+    {
+        "mur": 16,
+        "couleur": "rouge",
+        "niveau": ""
+    },
+    {
+        "mur": 16,
+        "couleur": "blanc",
+        "niveau": "5C"
+    },
+    {
+        "mur": 16,
+        "couleur": "gris",
+        "niveau": "5C"
+    },
+    {
+        "mur": 17,
+        "couleur": "bleu",
+        "niveau": "6B"
+    },
+    {
+        "mur": 17,
+        "couleur": "gris",
+        "niveau": "4C"
+    },
+    {
+        "mur": 17,
+        "couleur": "violet",
+        "niveau": 6C
+    },
+    {
+        "mur": 17,
+        "couleur": "rouge",
+        "niveau": "4C"
+    },
+    {
+        "mur": 17,
+        "couleur": "orange",
+        "niveau": "4B+"
+    },
+    {
+        "mur": 18,
+        "couleur": "vert",
+        "niveau": 5B
+    },
+    {
+        "mur": 18,
+        "couleur": "noir",
+        "niveau": "7A",
+    },
+    {
+        "mur": 18,
+        "couleur": "blanc",
+        "niveau": "4C"
+    },
+    {
+        "mur": 18,
+        "couleur": "jaune",
+        "niveau": "6A"
+    },
+    {
+        "mur": 19,
+        "couleur": "bleu",
+        "niveau": "5C+"
+    },
+    {
+        "mur": 19,
+        "couleur": "violet",
+        "niveau": "7B"
+    },
+    {
+        "mur": "19",
+        "couleur": "rose",
+        "niveau": "5A"
+    },
+    {
+        "mur": 19,
+        "couleur": "gris",
+        "niveau": "5A"
+    },
+    {
+        "mur": 20,
+        "couleur": "vert",
+        "niveau": "5B+"
+    },
+    {
+        "mur": 20,
+        "couleur": "rouge",
+        "niveau": "5A+"
+    },
+    {
+        "mur": 20,
+        "couleur": "jaune",
+        "niveau": "5B"
+    },
+    {
+        "mur": 20,
+        "couleur": "bleu",
+        "niveau": "6A"
+    },
+    {
+        "mur": 20,
+        "couleur": "violet",
+        "niveau": "5C+"
+    },
+    {
+        "mur": 21,
+        "couleur": "gris",
+        "niveau": "4B+"
+    },
+    {
+        "mur": 21,
+        "couleur": "saumon",
+        "niveau": "5B"
+    },
+    {
+        "mur": 21,
+        "couleur": "orange",
+        "niveau": "4C"
+    },
+    {
+        "mur": 21,
+        "couleur": "bleu",
+        "niveau": "4B"
+    },
+    {
+        "mur": 22,
+        "couleur": "violet",
+        "niveau": ""
+    },
+    {
+        "mur": 22,
+        "couleur": "rouge",
+        "niveau": ""
+    },
+    {
+        "mur": 22,
+        "couleur": "vert",
+        "niveau": "6C"
+    },
+    {
+        "mur": 22,
+        "couleur": "marron",
+        "niveau": "5B"
+    }
+]
