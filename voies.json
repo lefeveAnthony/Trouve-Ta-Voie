@@ -195,7 +195,7 @@
         "niveau": ""
     },
     {
-        "mur": 14,
+        "mur": 14,json
         "couleur": "jaune",
         "niveau": "5C"
     },
@@ -247,7 +247,7 @@
     {
         "mur": 17,
         "couleur": "violet",
-        "niveau": 6C
+        "niveau": "6C"
     },
     {
         "mur": 17,
@@ -262,7 +262,7 @@
     {
         "mur": 18,
         "couleur": "vert",
-        "niveau": 5B
+        "niveau": "5B"
     },
     {
         "mur": 18,
@@ -324,7 +324,7 @@
         "couleur": "violet",
         "niveau": "5C+"
     },
-    {
+    {json
         "mur": 21,
         "couleur": "gris",
         "niveau": "4B+"
